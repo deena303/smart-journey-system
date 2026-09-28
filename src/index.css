@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #5F2CFF;
+  --primary-soft: #8B6CFF;
+  --glass-blue: #DFF6FF;
+  --glass-blue-subtle: #F0FAFF;
+  --dark: #0B0B12;
+  --dark-surface: #141420;
+  --canvas: #F7F8FC;
+  --white: #FFFFFF;
+}
+
+@theme {
+  --color-primary: #5F2CFF;
+  --color-primary-soft: #8B6CFF;
+  --color-glass-blue: #DFF6FF;
+  --color-glass-blue-subtle: #F0FAFF;
+  --color-dark: #0B0B12;
+  --color-dark-surface: #141420;
+  --color-canvas: #F7F8FC;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--canvas);
+  color: var(--dark);
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(223, 246, 255, 0.8);
+}
+
+.glass-blue-card {
+  background: rgba(223, 246, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(95, 44, 255, 0.15);
+}
+
+.glow-violet {
+  box-shadow: 0 10px 30px -10px rgba(95, 44, 255, 0.25);
+}
+
+.glow-violet-sm {
+  box-shadow: 0 4px 14px 0 rgba(95, 44, 255, 0.18);
+}

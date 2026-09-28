@@ -1,0 +1,6 @@
+{
+  "name": "JourneyIQ - Intelligent Mobility & Journey Planner",
+  "description": "Plan smarter. Travel better. Intelligent journey planner recommending optimal routes based on travel time, distance, cost, transfers, and transport options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
